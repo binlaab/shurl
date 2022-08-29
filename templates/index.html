@@ -1,0 +1,10 @@
+{% extends "layouts/default.html" %}
+
+{% block body %}
+<h1>URL shortener</h1>
+
+<form action="{{ url_for('create_url') }}" method="post">
+    <input type="text" name="url">
+    <input type="submit" value="Submit">
+</form>
+{% endblock body %}

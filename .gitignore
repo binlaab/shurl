@@ -1,0 +1,7 @@
+__pycache__
+.vscode
+venv
+.idea
+test.py
+.config
+urls.txt
