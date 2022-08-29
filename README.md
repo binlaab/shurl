@@ -1,6 +1,6 @@
 # Shurl
 
-Shurl is a simple URL shortener written Python and relies in <a href="https://flask.palletsprojects.com/en/2.2.x/"> Flask</a>. <br>
+Shurl is a simple URL shortener written in Python and relies in <a href="https://flask.palletsprojects.com/en/2.2.x/"> Flask</a>. <br>
 
 ### Usage
 1. Install needed packages:
