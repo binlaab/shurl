@@ -41,8 +41,8 @@ def parse_config():
             val = val.rstrip()
 
             # checks for invalid values
-            if key == 'port' and not val.isdigit():
-                print("[WARNING] Port number is not a number, defaulting to port 80")
+            if key == 'port' and not val.isdigit() and int(val) > 65535:
+                print("[WARNING] Port number is not a number or is higher than 65535, defaulting to port 80")
                 val = "80"
 
             if key == 'host':
